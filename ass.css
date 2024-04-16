@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#ass1{
+    background-color: bisque;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#ass1 button{
+    padding: 15px 30px;
+
+}
+#ass1 button:hover{
+    background-color: azure;
+    border: none;
+    
+}
+#ass1 input{
+    padding: 20px 50px;
+}
+h1{
+    color: brown;
+}
+h3{
+    margin-top: 100px;
+}

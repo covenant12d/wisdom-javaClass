@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="kiss"></h1>
+</body>
+</html>
+<script>
+//     let num =5
+//     if (num > 3){
+//         alert('yes')
+//         console.log('good boy');
+//     }else{
+//         alert('no')
+//     }
+
+// switch ('david') {
+//     case 'wizkid':
+//         alert('good')
+//         break;
+
+//     default:
+//         alert('bad')
+//         break;
+// }
+
+let u = document.getElementById('kiss')
+let monday = prompt('who is the biggest artist?', 'imput your text here')
+let correct = monday.toLowerCase()
+switch (correct) {
+    case 'january':
+    u.innerHTML = correct.value= 'there are 30 days in january'
+        console.log('correct');
+        break;
+        case 'febuary':
+        u.innerHTML = correct.value= 'there are 29 days in febuary'
+            // u.innerHTML = correct.value= 'monday, tuesday, wednesday, thursday, friday'
+        console.log('correct');
+        break;
+    default:
+        console.log('wrong');
+        break;
+}
+
+//condition
+//ternary operator
+1 == true ? console.log('yes') : console.log('no');
+</script>

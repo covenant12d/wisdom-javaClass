@@ -1,0 +1,11 @@
+button{
+    padding: 10px 20px;
+    margin: 10px;
+}
+button:hover{
+    background-color: greenyellow;
+}
+input{
+margin-bottom: 20px;
+padding: 10px 10px;
+}

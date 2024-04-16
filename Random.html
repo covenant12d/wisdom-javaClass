@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="code">
+
+    </div>
+    <button id="book" onclick="code()">click me</button>
+    <input id="input2"/>
+    <button id="book" onclick="book()">click me</button>
+
+    <h1  id="cov"></h1>
+</body>
+</html>
+<script>
+ 
+    let aa = 2
+    let bb =  3
+ 
+
+    let c = document.getElementById('code')
+let a = Math.random() *10
+let b = Math.ceil(a)
+
+c.style.display ='none'
+
+
+function code() {
+    
+   
+}
+function book(){
+    let c = document.getElementById('code')
+c.innerHTML= b
+    c.style.display= 'block'
+    let cov = document.getElementById('cov')
+    let input2 = document.getElementById('input2')
+    cov.innerHTML = input2.value
+    
+    if (input2.value == b ){
+    alert('you won')
+ }
+ else {
+    alert('you lose')
+ }
+   
+}
+
+
+</script>
